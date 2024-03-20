@@ -715,8 +715,10 @@ width: 100%;
 height: 100%;
 }
 .cimg{
-    /* display: flex;
-    justify-content: end; */
+    /* margin: auto;
+    width: 100%;
+    height: 100%; */
+   
 }
 
 #erpimg{
