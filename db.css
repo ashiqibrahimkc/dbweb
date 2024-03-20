@@ -770,7 +770,7 @@ height: 100%;
     
     .bgimage{
         background-image: url('topimg.jpeg');
-        min-height: 200px;
+        height: 200px;
         min-width: 100%;
     }
     
@@ -881,5 +881,14 @@ height: 100%;
         font-size: medium;
         font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         text-align: center;
+    }
+    @media(max-width:500px){
+        .bgimage h2{
+            font-size: 30px;
+            padding: 5%;
+          }
+          .bgimage{
+            height: 150px;
+          }
     }
     
