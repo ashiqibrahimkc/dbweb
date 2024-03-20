@@ -118,6 +118,10 @@ text-decoration: none;
     .side{
         display: block;
     }
+    .nav{
+        display: flex;
+        padding-top: 2%;
+    }
 }
 /* ................................................................................second-head............................................................ */
 
@@ -570,7 +574,7 @@ text-decoration: none;
         width: 100%;
         text-align: center;
     }
-    .footer-in p{}
+
 }
 
 
@@ -714,12 +718,7 @@ text-decoration: none;
 width: 100%;
 height: 100%;
 }
-.cimg{
-    /* margin: auto;
-    width: 100%;
-    height: 100%; */
-   
-}
+
 
 #erpimg{
     height: 100%;
