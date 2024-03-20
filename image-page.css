@@ -1,0 +1,40 @@
+body{
+    margin: 0; 
+    padding: 0;
+}
+
+.carousel-item img{
+    height: 100%;
+    width: auto;
+    /* position: absolute; */
+}
+
+.carousel-inner{
+    height: 600px;
+    width: auto;
+    box-sizing: border-box;
+    padding: 10%;
+}
+
+.carousel-item{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: aqua; */
+    width: auto; height: 100%;
+    overflow: hidden;
+    /* position: relative; */
+}
+
+.carousel{
+    background-color: brown;
+}
+.badge{
+    /* display: inline-block; */
+    position: absolute;
+    float: right;
+}
+
+.secondimg{
+    float: right;
+}
