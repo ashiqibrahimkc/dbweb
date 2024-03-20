@@ -127,7 +127,9 @@ text-decoration: none;
 
 .s-paragrap{
     background-color: #a1bdf8;
-    padding: 9% 0%;
+    /* padding: 9% 0%; */
+    padding-top: 5%;
+    padding-bottom: 1%;
 }
 .s-left h1{
     font-weight: 1000;
