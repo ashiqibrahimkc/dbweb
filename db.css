@@ -120,7 +120,11 @@ text-decoration: none;
     }
     .nav{
         display: flex;
-        padding-top: 2%;
+        /* padding-top: 2%; */
+        /* margin-top: 10px; */
+    }
+    nav{
+        height: 50px;
     }
 }
 /* ................................................................................second-head............................................................ */
@@ -439,6 +443,7 @@ text-decoration: none;
     text-align: center;
     font-weight: 1000;
     font-style: italic;
+    margin-top: 2%;
 }
 .body{
     background-color:#f2f2f2;
@@ -453,7 +458,7 @@ text-decoration: none;
 }
 .logos{
     overflow: hidden;
-    padding: 60px 0;
+    padding: 40px 0;
     background: white;
     white-space: nowrap;
     position: relative;
@@ -560,7 +565,7 @@ text-decoration: none;
     cursor: pointer;
 }
 .line{
-    border: 1px solid white;
+    /* border: 1px solid white; */
 }
 .footer-in{
     padding: 2% 0%;
@@ -573,8 +578,9 @@ text-decoration: none;
         font-size: 17px;
     }
     .line{
-        width: 100%;
-        text-align: center;
+        /* width: 100%; */
+        /* text-align: center; */
+        
     }
 
 }
