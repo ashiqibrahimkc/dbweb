@@ -468,7 +468,7 @@ text-decoration: none;
     width: 250px;
     height: 100%;
     content:"";
-    z-index: 2;
+    z-index: 1;
 }
 .logos::after{
     right: 0;
