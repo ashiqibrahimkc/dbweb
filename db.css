@@ -698,7 +698,20 @@ text-decoration: none;
     font-weight: 700;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-
+@media(max-width:575px){
+    .boxf h4{
+        font-size: 25px;
+    }
+    .boxf p{
+        font-size: 14px;
+    }
+    .boxf i{
+       font-size: 22px;
+    }
+    .box-fout{
+        padding: 0 50px;
+    }
+}
 /* ................................................................................product........................................................................... */
 .mybody{
     background-color:rgb(238, 238, 238);
