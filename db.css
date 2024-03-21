@@ -16,8 +16,7 @@ nav{
     justify-content: space-between;
     padding: 1% 7%;
     color: white;
-    /* position: sticky; */
-    /* top: 0%; */
+ 
 }
 .nav-ul{
     display: flex;
@@ -38,6 +37,9 @@ nav{
 }
 .nav-ul li{
     list-style: none;
+}
+.nav-logo{
+    padding: .5% 0;
 }
 .nav-logo h3 a{
     color: black;
@@ -120,11 +122,14 @@ text-decoration: none;
     }
     .nav{
         display: flex;
-        /* padding-top: 2%; */
-        /* margin-top: 10px; */
+        padding: 2% 10%;
+    }
+    .nav-logo{
+        padding: 0% 0%;
     }
     nav{
-        height: 50px;
+        height: 60px;
+        border-bottom: 50%;
     }
 }
 /* ................................................................................second-head............................................................ */
