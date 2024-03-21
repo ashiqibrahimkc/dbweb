@@ -122,14 +122,18 @@ text-decoration: none;
     }
     .nav{
         display: flex;
-        padding: 2% 10%;
+        padding: 2% 2%;
     }
     .nav-logo{
         padding: 0% 0%;
     }
     nav{
         height: 60px;
-        border-bottom: 50%;
+    }
+}
+@media(max-width:580px){
+    .nav{
+        padding: 3% 2%;
     }
 }
 /* ................................................................................second-head............................................................ */
